@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Huttopia\ConsoleBundle\Command;
+namespace Wizaplace\ConsoleBundle\Command;
 
 use Doctrine\Bundle\DoctrineBundle\Command\Proxy\UpdateSchemaDoctrineCommand;
 use Symfony\Bundle\FrameworkBundle\Console\Application;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Huttopia\ConsoleBundle\DependencyInjection;
+namespace Wizaplace\ConsoleBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;

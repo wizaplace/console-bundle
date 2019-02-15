@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Huttopia\ConsoleBundle\Command;
+namespace Wizaplace\ConsoleBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\DependencyInjection\ContainerInterface;

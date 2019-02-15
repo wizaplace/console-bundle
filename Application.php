@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Huttopia\ConsoleBundle;
+namespace Wizaplace\ConsoleBundle;
 
 use Symfony\Bundle\FrameworkBundle\Console\Application as BundleApplication;
 use Symfony\Component\Console\Command\Command;

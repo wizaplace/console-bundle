@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Huttopia\ConsoleBundle;
+namespace Wizaplace\ConsoleBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

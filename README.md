@@ -1,7 +1,7 @@
-[![version](https://img.shields.io/badge/version-1.1.1-green.svg)](https://github.com/huttopia/console-bundle)
+[![version](https://img.shields.io/badge/version-1.1.1-green.svg)](https://github.com/wizaplace/console-bundle)
 [![symfony](https://img.shields.io/badge/symfony/symfony-^2.3%20||%20^3.0-blue.svg)](https://symfony.com)
 ![Lines](https://img.shields.io/badge/code%20lines-370-green.svg)
-![Total Downloads](https://poser.pugx.org/huttopia/console-bundle/downloads)
+![Total Downloads](https://poser.pugx.org/wizaplace/console-bundle/downloads)
 
 # ConsoleBundle
 
@@ -16,7 +16,7 @@ Add configuration to _doctrine:schema:update_ to get queries for more than one d
 # Installation
 
 ```bash
-composer require huttopia/console-bundle ^1.1
+composer require wizaplace/console-bundle ^1.1
 ```
 
 ```php
@@ -27,7 +27,7 @@ class AppKernel
     public function registerBundles()
     {
         $bundles = [
-            new \Huttopia\ConsoleBundle\ConsoleBundle()
+            new \Wizaplace\ConsoleBundle\ConsoleBundle()
         ];
     }
 }
@@ -41,7 +41,7 @@ You can exclude commands you don't need, or you don't want to be executed on thi
 # bin/console
 
 # replace use Symfony\Bundle\FrameworkBundle\Console\Application; by this one
-use Huttopia\ConsoleBundle\Application;
+use Wizaplace\ConsoleBundle\Application;
 ```
 
 Then configure commands you want to be excluded:

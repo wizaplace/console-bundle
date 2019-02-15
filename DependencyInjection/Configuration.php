@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Huttopia\ConsoleBundle\DependencyInjection;
+namespace Wizaplace\ConsoleBundle\DependencyInjection;
 
 use Symfony\Component\Config\{
     Definition\Builder\TreeBuilder,

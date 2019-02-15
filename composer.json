@@ -1,21 +1,15 @@
 {
-    "name": "huttopia/console-bundle",
+    "name": "wizaplace/console-bundle",
     "description": "Add some nice features to symfony/console",
     "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Huttopia\\ConsoleBundle\\": ""
+            "Wizaplace\\ConsoleBundle\\": ""
         }
     },
     "require": {
         "php": ">=7.1.2",
-        "symfony/framework-bundle": "^2.3|^3.0|^4.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:huttopia/console-bundle.git"
-        }
-    ]
+        "symfony/framework-bundle": "^4.0"
+    }
 }
